@@ -1,0 +1,374 @@
+@font-face {
+    font-family: 'NineByFive'; /* Choose a unique name for your font */
+    src: url("NineByFive/nine0.ttf") format('woff2');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body{
+    margin: 0;
+    overflow-x: hidden;
+    
+}
+#firstPage{
+    background-color: #304486;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    height: 30em;
+    overflow: hidden;
+    position: sticky;
+    top: 0;
+}
+
+.myHeader {
+    text-align: center;
+    text-align: left;
+    font-family: fantasy;
+    color: #FFDE00;
+    font-size: 8.5em;
+    padding-left: 1.5em;
+    position: relative;
+    bottom: -.4em;
+
+    text-shadow: .1em .1em #574B00;
+    z-index: 2;
+}
+.image-container{
+    text-align: center;
+}
+.image-container img {
+    /*ratio of image is 1.22:1*/
+    height: 20em;
+    width: auto;
+    position: relative;
+    bottom: 11.5em;
+    
+    z-index: 3;
+}
+
+.bg-logo img{
+    width: 60em;
+    position: relative;
+    z-index: 1;
+    left: -10em;
+    bottom: 40em;
+    opacity: 20%;
+}
+
+.aspiring {
+    position: relative;
+    font-family: NineByFive;
+    color: #C8EAFF;
+    font-size: 3em;
+
+    left: 18em;
+    bottom: 32em;
+}
+
+.softwareEng {
+    position: relative;
+    font-family: NineByFive;
+    color: #FFA100;
+    font-size: 5em;
+
+    left: 10.8em;
+    bottom: 21.5em;
+/*
+    display: inline-block;
+    overflow: hidden;
+    border-right: 0.5em solid #000;
+    white-space: nowrap;
+    animation: blink 1s infinite step-start; 
+    display: inline-block;
+    animation: typing 3s steps(30, end) infinite;
+*/
+
+}
+
+.Tri1 img{
+    position: absolute;
+    height: 2em;
+    width: auto;
+    top:0;
+    right: 0;
+    margin-right: 2em;
+}
+
+.Tri2 img{
+    position: absolute;
+    height: 2em;
+    width: auto;
+    bottom: -.5em; 
+    right: 0;
+    margin-right: 2em;
+}
+.PacMan img{
+    position: absolute;
+    width: 15em;
+    height: auto;
+    top: 11em;
+    right: 25em; 
+}
+
+/* -----------------------------------------------------------------------*/
+#secondPage{
+    background-color: white;
+    
+    position: relative;
+    z-index: 9;
+    margin: 0;
+    padding: 1em;
+    box-sizing: border-box;
+    height: 47em;
+    width: 100%;
+}
+.Tri2b img{
+    position: absolute;
+    height: 4em;
+    width: auto;
+    top:-3em;  
+    right: 0;
+    margin-right: 2em;
+
+    z-index: 10;
+}
+
+#TopLeft{
+    background-color: #FF31A6;
+    margin: 0;
+    height: 50%;
+    width: 60%;
+    top: 0;
+    left: 0;
+    position: absolute;
+
+    font-family: tahoma;
+}
+
+
+#acheivements{
+    font-size: 6em;
+    text-align: center;
+    text-shadow: .1em .1em #1E2F69;
+    color: #CFF8FF;
+}
+#container{
+    display: flex;
+    justify-content: center;
+    margin-top: -3em;
+    
+
+}
+
+#container2{
+    display: flex;
+    justify-content: center;
+    margin-top: -2.5em;
+    flex-direction: column;
+}
+.box{
+    flex: 1 0 2em;
+    margin: 2em;
+    height: 6em;
+    background-color: #5B7C99;
+    border-radius: 1em; 
+    padding: 1em;
+    box-shadow: 1em 1em#1E2F69;
+
+    color: white;
+    font-family: NineByFive;
+    font-size: 1.5em;
+    flex-wrap: wrap;
+}
+
+.box2{
+    background-color: #48588f;
+    box-shadow: .2em .2em #bc2323;
+    display: flex;
+    flex: 1 0 1em;
+    margin: .2em;
+    width: 14em;
+    border-radius: .5em;
+    padding: .2em;
+    padding-left: 1em;
+    color: #FFDE00;
+    font-family: NineByFive;
+    font-size: 1.1em;
+}
+
+.TopRight{
+    background-color: #FF3131;
+    margin: 0;
+    height: 50%;
+    width: 40%;
+    top:0;
+    right: 0;
+    position: absolute;
+    z-index: 1;
+}
+
+
+.KUNIN{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 7em;
+    text-shadow: .1em .1em #1E2F69;
+    color: #FFA100;
+    text-align: right;
+    position: absolute;
+    top: -.4em;
+    right: .5em;
+    line-height: 1em;
+}
+
+.age{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: .1em .1em #1E2F69;
+    color: #FFDE00;
+    font-size: 7em;
+    position: absolute;
+    
+    top: .5em;
+    left: .6em;
+}
+
+.age2{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-shadow: .1em .1em #1E2F69;
+    color: #FFDE00;
+    font-size: 7em;
+    position: absolute;
+    
+    top: .5em;
+    left: 2.1em;
+}
+
+#yrs{
+    font-family: NineByFive;
+    color: white;
+    font-size: 2em;
+    transform: rotate(90deg);
+
+    position: absolute;
+    
+    top: 5em;
+    left: 4.8em;
+}
+
+#yrs2{
+    font-family: NineByFive;
+    color: white;
+    font-size: 2em;
+    transform: rotate(90deg);
+
+    position: absolute;
+    
+    top: 5em;
+    left: 10.4em;
+}
+
+#BotLeft{
+    background-color: rgb(232, 163, 15);
+    margin: 0;
+    height: 50%;
+    width: 60%;
+    bottom:0;
+    left: 0;
+    position: absolute;
+    overflow: hidden;
+}
+
+.botLeft-H1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 4em;
+    margin-left: 2em;
+    z-index: 5;
+    text-shadow: .05em .05em #5B7C99;
+    color: #1E2F69;
+    
+}
+
+.botLeft-H2{
+    font-family: Tahoma;
+    font-size: 3em;
+    margin-left: 2.7em;
+    color: #1E2F69;
+    text-shadow: .05em .05em #5B7C99;
+}
+
+h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: #1E2F69;
+}
+#BotRight{
+    background-color: #1E2F69;
+    margin: 0;
+    height: 50%;
+    width: 40%;
+    bottom:0;
+    right: 0;
+    position: absolute;
+
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1.5em;
+}
+.likes{
+    color: #FFDE00;
+    font-size: 3em;
+    text-shadow: .05em .05em #574B00;
+    position: relative;
+}
+
+.rightSide{
+    margin-left: 2em;
+}
+
+.Mayon img{
+    opacity: 10%;
+    width: 100%;
+    height: 25em;
+    z-index: 4;
+    position: absolute;
+}
+
+/* ----------------------------------------------------------------------
+
+#thirdPage{
+    background-color: #304486;
+    z-index: 19;
+    padding: 1em ;
+    box-sizing: border-box;
+    height: 35em;
+    width: 100%;
+    position: relative;
+    
+    margin: 0;
+}
+
+.Tri3 img{
+    position: absolute;
+    height: 2em;
+    width: auto;
+    top: -1em; 
+    left: 2em;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1em); /* Three equal columns 
+    grid-gap: 17em; /* Gap between grid items 
+    justify-content: center;
+  }
+
+  .grid-item {
+    background-color: #0E0E3D;
+    padding: 3em;
+    text-align: center;
+    width: 10em;
+    border-radius: 1em;
+    margin-top: 5em;
+    box-shadow: .5em .5em #FFFCF5;
+  }
+
+*/
